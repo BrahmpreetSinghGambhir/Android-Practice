@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brahmpreetsingh.sn_sharedprefrv150.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:id="@+id/xtextViewNameB"
+        android:layout_marginTop="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password :"
+        android:id="@+id/xtextViewPasswordB"
+        android:layout_below="@+id/xtextViewNameB"
+        android:layout_alignStart="@+id/xtextViewNameB"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrieve"
+        android:onClick="retrieve"
+        android:id="@+id/xbuttonRetrieve"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/xeditTextNameB" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go to a"
+        android:onClick="goToA"
+        android:id="@+id/xbuttonGoToA"
+        android:layout_alignTop="@+id/xbuttonRetrieve"
+        android:layout_toEndOf="@+id/xbuttonRetrieve"
+        android:layout_marginStart="37dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/xeditTextNameB"
+        android:hint="Retrieved name ...."
+        android:layout_alignTop="@+id/xtextViewNameB"
+        android:layout_toEndOf="@+id/xtextViewNameB"
+        android:layout_alignBaseline="@+id/xtextViewNameB"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:id="@+id/xeditTextPasswordB"
+        android:hint="Retrieved password ...."
+        android:layout_alignBaseline="@+id/xtextViewPasswordB"
+        android:layout_toEndOf="@+id/xtextViewPasswordB" />
+    />
+
+</RelativeLayout>
+

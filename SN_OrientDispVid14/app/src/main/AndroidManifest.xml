@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brahmpreetsingh.sn_orientdispvid14">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:configChanges="orientation|screenSize">                 <!-- Here this line will tell java code (onConfigurationChanged() method) that what                                                                               user is making to "orientation" & "screensize" as when user
+                                                                                 change user made to orientation & screen size. <Target version being higher than 12, two things are to be passed>
+                                                                                 If our target Android version would have been
+                                                                                 less than 12, we could have just passed "orientation"
+                                                                                 as in earlier versions screensize didnt used to change-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

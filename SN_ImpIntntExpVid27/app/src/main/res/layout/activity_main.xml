@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brahmpreetsingh.sn_impintntexpvid27.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Map"
+        android:id="@+id/xbutton1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:onClick="process"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Market"
+        android:id="@+id/xbutton2"
+        android:layout_marginTop="34dp"
+        android:onClick="process"
+        android:layout_below="@+id/xbutton1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send email"
+        android:id="@+id/xbutton3"
+        android:onClick="process"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/xbutton1"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Image"
+        android:id="@+id/xbutton4"
+        android:layout_below="@+id/xbutton3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:onClick="process"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Images"
+        android:id="@+id/xbutton5"
+
+        android:layout_marginTop="32dp"
+        android:onClick="process"
+        android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

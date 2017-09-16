@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SN_NavDrawrCstmLstV147</string>
+    <string-array name="Social_Sites">
+        <item>Facebook</item>
+        <item>Google+</item>
+        <item>Pinterest</item>
+        <item>Instagram</item>
+        <item>Orkut</item>
+    </string-array>
+    <string name="drawer_open">Drawer opened</string>
+    <string name="drawer_close">Drawer closed</string>
+</resources>

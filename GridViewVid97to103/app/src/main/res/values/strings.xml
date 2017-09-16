@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GridViewVid97to103</string>
+    <string-array name="country_names">
+        <item>canada</item>
+        <item>zimbabwe</item>
+        <item>nigeria</item>
+        <item>bahamas</item>
+        <item>oman</item>
+        <item>liberia</item>
+
+    </string-array>
+</resources>

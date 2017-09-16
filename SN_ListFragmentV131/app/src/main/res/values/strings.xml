@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SN_ListFragmentV131</string>
+    <string-array name="Heroes">
+        <item>Superman</item>
+        <item>Spiderman</item>
+        <item>G.I Joe</item>
+        <item>Hulk</item>
+    </string-array>
+
+</resources>

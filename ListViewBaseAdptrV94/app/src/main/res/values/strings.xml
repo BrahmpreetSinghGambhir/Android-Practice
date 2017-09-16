@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ListViewBaseAdptrV94</string>
+    <string-array name="Titles">
+        <item>Meme 1</item>
+        <item>Meme 2</item>
+        <item>Meme 3</item>
+        <item>Meme 4</item>
+        <item>Meme 5</item>
+        <item>Meme 6</item>
+        <item>Meme 7</item>
+        <item>Meme 8</item>
+    </string-array>
+    <string-array name="Discriptions">
+        <item>Discription 1</item>
+        <item>Discription 2 2</item>
+        <item>Discription 3</item>
+        <item>Discription 4</item>
+        <item>Discription 5</item>
+        <item>Discription 6</item>
+        <item>Discription 7</item>
+        <item>Discription 8</item>
+    </string-array>
+
+</resources>

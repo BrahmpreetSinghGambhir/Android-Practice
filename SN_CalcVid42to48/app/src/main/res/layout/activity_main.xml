@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/xmainredbox"
+    android:background="#FF0000"
+    tools:context="com.example.brahmpreetsingh.sn_calcvid42to48.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/xgreenbox"
+        android:layout_weight="3"
+        android:background="#008000"
+        android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="X"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/BigBlueBox"
+        android:layout_weight="7"
+        android:background="#0000ff"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp">
+                     <LinearLayout
+                         android:id="@+id/orangebox1"
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:background="#FFA500"
+                         android:layout_weight="5"
+                         android:orientation="vertical">
+
+                         <Button
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             android:text="sin"
+                             style="@style/Gangnamstyle"
+                             android:layout_weight="1"
+                             android:layout_margin="2dp"
+                             android:id="@+id/xOB1_Btn1"/>
+
+
+                         <Button
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             style="@style/Gangnamstyle"
+                             android:text="cos"
+                             android:layout_weight="1"
+                             android:id="@+id/xOB1_Btn2"/>
+
+                         <Button
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             style="@style/Gangnamstyle"
+                             android:text="tan"
+                             android:layout_weight="1"
+                             android:id="@+id/xOB1_Btn3"/>
+
+                         <Button
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             style="@style/Gangnamstyle"
+                             android:text="π"
+                             android:layout_weight="1"
+                             android:id="@+id/xOB1_Btn4"/>
+
+                         <Button
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             android:text="!"
+                             style="@style/Gangnamstyle"
+                             android:layout_weight="1"
+                             android:id="@+id/xOB1_Btn5"/>
+                     </LinearLayout>
+                     <LinearLayout
+                        android:id="@+id/orangebox2"
+                        android:layout_width="0dp"
+                        android:layout_weight="5"
+                        android:layout_height="match_parent"
+                        android:background="#FFA07A"
+                        android:orientation="vertical"
+                         android:layout_marginRight="30dp">
+                         <Button
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             style="@style/Gangnamstyle"
+                             android:text="In"
+                             android:layout_weight="1"
+                             android:id="@+id/xOB2_Btn1"/>
+
+
+                         <Button
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             style="@style/Gangnamstyle"
+                             android:text="Log"
+                             android:layout_weight="1"
+                             android:id="@+id/xOB2_Btn2"/>
+
+                         <Button
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             style="@style/Gangnamstyle"
+                             android:text="e"
+                             android:layout_weight="1"
+                             android:id="@+id/xOB2_Btn3"/>
+
+                         <Button
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             style="@style/Gangnamstyle"
+                             android:text="^"
+                             android:layout_weight="1"
+                             android:id="@+id/xOB2_Btn4"/>
+
+                         <Button
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             style="@style/Gangnamstyle"
+                             android:text="√"
+                             android:layout_weight="1"
+                             android:id="@+id/xOB2_Btn5"/>
+                     </LinearLayout>
+
+
+                     <LinearLayout
+                         android:id="@+id/blackbox"
+                         android:orientation="vertical"
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:layout_weight="21"
+                         android:background="#000">
+                                        <LinearLayout
+                                        android:id="@+id/greenbox1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="0dp"
+                                        android:background="#006400"
+                                        android:layout_weight="1"
+                                            android:layout_margin="2dp"
+                                        android:orientation="horizontal">
+                                        <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="7"
+                                        android:layout_weight="1"
+                                        style="@style/Gangnamstyle2"
+                                        android:id="@+id/xGB1_Btn1"/>
+
+
+                                        <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        style="@style/Gangnamstyle2"
+                                        android:text="8"
+                                        android:layout_weight="1"
+                                        android:id="@+id/xGB1_Btn2"/>
+
+                                        <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                            style="@style/Gangnamstyle2"
+                                            android:text="9"
+                                        android:layout_weight="1"
+                                        android:id="@+id/xGB1_Btn3"/>
+
+                                        <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="÷"
+                                            style="@style/Gangnamstyle3"
+                                        android:layout_weight="1"
+                                        android:id="@+id/xGB1_Btn4"/>
+
+                                        <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="("
+                                            style="@style/Gangnamstyle3"
+                                        android:layout_weight="1"
+                                        android:id="@+id/xGB1_Btn5"/>
+                                        </LinearLayout>
+
+
+                                        <LinearLayout
+                                        android:id="@+id/greenbox2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="0dp"
+                                        android:background="#228B22"
+                                        android:layout_weight="1"
+                                            style="@style/Gangnamstyle2"
+                                        android:orientation="horizontal"
+                                        >
+                                        <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="4"
+                                            style="@style/Gangnamstyle2"
+                                        android:layout_weight="1"
+                                        android:id="@+id/xGB2_Btn1"/>
+
+
+                                        <Button
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="5"
+                                            style="@style/Gangnamstyle2"
+                                        android:layout_weight="1"
+                                        android:id="@+id/xGB2_Btn2"/>
+
+                                        <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="6"
+                                            style="@style/Gangnamstyle2"
+                                        android:layout_weight="1"
+                                        android:id="@+id/xGB2_Btn3"/>
+
+                                        <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="X"
+                                            style="@style/Gangnamstyle3"
+                                        android:layout_weight="1"
+                                        android:id="@+id/xGB2_Btn4"/>
+
+                                        <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text=")"
+                                            style="@style/Gangnamstyle3"
+                                        android:layout_weight="1"
+                                        android:id="@+id/xGB2_Btn5"/>
+                                        </LinearLayout>
+
+
+                                        <LinearLayout
+                                        android:id="@+id/bluebox1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="0dp"
+                                        android:background="#7F7FFF"
+                                        android:layout_weight="2"
+                                        android:orientation="horizontal">
+                                            <LinearLayout
+                                            android:id="@+id/redbox1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:background="#ff0000"
+                                            android:orientation="vertical">
+                                                <LinearLayout
+                                                    android:id="@+id/greenbox3"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="0dp"
+                                                    android:background="#2d3d2d"
+                                                    android:layout_weight="4"
+                                                    android:orientation="horizontal">
+                                                    <Button
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="1"
+                                                        android:layout_weight="1"
+                                                        style="@style/Gangnamstyle2"
+                                                        android:id="@+id/xGB3_Btn1"/>
+
+
+                                                    <Button
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        style="@style/Gangnamstyle2"
+                                                        android:text="2"
+                                                        android:layout_weight="1"
+                                                        android:id="@+id/xGB3_Btn2"/>
+
+                                                    <Button
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="3"
+                                                        style="@style/Gangnamstyle2"
+                                                        android:layout_weight="1"
+                                                        android:id="@+id/xGB3_Btn3"/>
+
+                                                    <Button
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="-"
+                                                        style="@style/Gangnamstyle3"
+                                                        android:layout_weight="1"
+                                                        android:id="@+id/xGB3_Btn4"/>
+
+
+
+                                                </LinearLayout>
+                                                <LinearLayout
+                                                    android:id="@+id/greenbox4"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="0dp"
+                                                    android:background="#99cc99"
+                                                    android:layout_weight="4"
+                                                    android:orientation="horizontal">
+                                                    <Button
+                                                        android:layout_width="0dp"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="0"
+                                                        style="@style/Gangnamstyle2"
+                                                        android:layout_weight="2"
+                                                        android:id="@+id/xGB4_Btn1"/>
+
+
+                                                    <Button
+                                                        android:layout_width="0dp"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="."
+                                                        style="@style/Gangnamstyle2"
+                                                        android:layout_weight="1"
+                                                        android:id="@+id/xGB4_Btn2"/>
+
+                                                    <Button
+                                                        android:layout_width="0dp"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="+"
+                                                        style="@style/Gangnamstyle3"
+                                                        android:layout_weight="1"
+                                                        android:id="@+id/xGB4_Btn3"/>
+
+
+
+                                                </LinearLayout>
+
+
+
+                                        </LinearLayout>
+                                            <LinearLayout
+                                                android:id="@+id/yellowbox"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:background="#ffff00"
+                                                android:layout_weight="1"
+                                                android:orientation="horizontal">
+                                                <Button
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    style="@style/Gangnamstyle3"
+                                                    android:text="="/>
+
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                     </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

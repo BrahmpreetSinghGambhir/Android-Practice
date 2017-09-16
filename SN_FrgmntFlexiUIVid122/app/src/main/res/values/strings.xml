@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SN_FrgmntFlexiUIVid122</string>
+    <string-array name="Titles">
+        <item>Account Agreement</item>
+        <item>Account History</item>
+        <item>Account Holder</item>
+        <item>Accrued Interest</item>
+    </string-array>
+
+    <string-array name="Discriptions">
+        <item>The contract governing your open-end credit account, it provides information on changes that may occur to the account.</item>
+        <item>The payment history of an account over a specific period of time, including the number of times the account was past due or over limit.</item>
+        <item>Any and all persons designated and authorized to transact business on behalf of an account.</item>
+        <item>Interest that has been earned but not yet paid. See also Interest-Bearing Accounts and FDIC Insurance.</item>
+    </string-array>
+
+
+</resources>

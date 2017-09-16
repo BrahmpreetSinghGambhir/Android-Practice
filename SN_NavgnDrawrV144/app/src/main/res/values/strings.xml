@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SN_NavgnDrawrV144</string>
+    <string-array name="Planets">
+        <item>Sun</item>        <item>Mercury</item>    <item>Venus</item>
+        <item>Earth</item>      <item>Mars</item>       <item>Jupiter</item>
+        <item>Saturn</item>     <item>Uranus</item>     <item>Neptune</item>
+    </string-array>
+    <string-array name="Stars">
+        <item>Gacrux</item>   <item>Furud</item>
+        <item>Etamin</item>   <item>Enif</item>   <item>Deneb Kaitos</item>
+    </string-array>
+    <string name="drawer_open">Drawer opened</string>
+    <string name="drawer_close">Drawer closed</string>
+</resources>

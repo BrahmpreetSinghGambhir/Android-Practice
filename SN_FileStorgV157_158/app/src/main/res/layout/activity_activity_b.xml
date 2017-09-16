@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brahmpreetsingh.sn_filestorgv157_158.ActivityB">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your username: "
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/xeditText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Internal Cache (Load)"
+        android:id="@+id/xbutton1b"
+        android:onClick="loadInternalCache"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="External Cache (Load)"
+        android:id="@+id/xbutton2b"
+        android:onClick="loadExternalCache"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="External Private (Load)"
+        android:id="@+id/xbutton3b"
+        android:onClick="loadExternalPrivate"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="External Public (Load)"
+        android:id="@+id/xbutton4b"
+        android:onClick="loadExternalPublic"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="back"
+        android:id="@+id/xbutton5b"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

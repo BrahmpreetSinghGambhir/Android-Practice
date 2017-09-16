@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SN_RotnWay2_V187-189</string>
+
+    <string-array name="urls">
+        <item>url 1</item>
+        <item>url 2</item>
+        <item>url 3</item>
+        <item>url 4</item>
+    </string-array>
+
+    <string-array name="imageUrls">
+        <item>http://www.dannyst.com/blogimg/gallery-portraits-of-strangers-18.jpg</item>
+        <item>http://121clicks.com/wp-content/uploads/2012/04/portrait_eyes_14.jpg</item>
+        <item>http://petapixel.com/assets/uploads/2013/03/The-Iphone-Portrait.jpg</item>
+        <item>http://www.planwallpaper.com/static/images/Mario-mario-wallpaper-hd-games-1920x1080.jpg</item>
+    </string-array>
+</resources>

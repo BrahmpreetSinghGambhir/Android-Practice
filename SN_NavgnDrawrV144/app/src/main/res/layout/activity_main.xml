@@ -1,0 +1,49 @@
+<android.support.v4.widget.DrawerLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xdrawerlayout">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id = "@+id/xmaincontent">
+    </FrameLayout>
+
+    <ListView
+        android:background="#FF8800"
+        android:divider="@null"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:id="@+id/xlistview"
+        android:layout_gravity="left">
+    </ListView>
+
+
+
+
+    <!-- NOT in USE (List View popping out from left)       (Video144)
+    <ListView
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:id="@+id/xleftlistview"
+        android:layout_gravity="left"
+        android:entries="@array/Planets">                   //Here 'android:entries' is an attribute to directly input entries to list
+    </ListView>
+    -->
+
+
+    <!-- NOT in USE (List View popping out from right)      (Video144)
+
+        <ListView
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:id="@+id/xrightlistview"
+            android:layout_gravity="right"
+            android:entries="@array/Stars">
+        </ListView>
+
+    -->
+
+
+    </android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brahmpreetsingh.sn_sharedprefrv150.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:id="@+id/xtextViewNameA"
+        android:layout_marginTop="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password :"
+        android:id="@+id/xtextViewPasswordA"
+        android:layout_below="@+id/xtextViewNameA"
+        android:layout_alignStart="@+id/xtextViewNameA"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:onClick="save"
+        android:id="@+id/xbuttonSave"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/xeditTextNameA" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go to b"
+        android:onClick="goToB"
+        android:id="@+id/xbuttonGoToB"
+        android:layout_alignTop="@+id/xbuttonSave"
+        android:layout_toEndOf="@+id/xbuttonSave"
+        android:layout_marginStart="37dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+
+        android:ems="10"
+        android:id="@+id/xeditTextNameA"
+        android:hint="Enter name here..."
+        android:layout_alignTop="@+id/xtextViewNameA"
+        android:layout_toEndOf="@+id/xtextViewNameA"
+        android:layout_alignBaseline="@+id/xtextViewNameA"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/xeditTextPasswordA"
+        android:hint="Enter password here..."
+        android:layout_alignBaseline="@+id/xtextViewPasswordA"
+        android:layout_toEndOf="@+id/xtextViewPasswordA" />
+    />
+
+</RelativeLayout>
+

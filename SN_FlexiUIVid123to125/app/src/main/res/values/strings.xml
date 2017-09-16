@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SN_FlexiUIVid123to125</string>
+    <string-array name="Chapters">
+        <item>Child Life Specialist</item>
+        <item>Attending MD</item>
+        <item>Licensed Practical Nurse LPN</item>
+        <item>Medical Students MS</item>
+    </string-array>
+
+    <string-array name="Discriptions">
+        <item>
+              educated in child development, Child Life Specialists work with children and families to help
+              them cope with being in the hospital. They use education, medical play and activities to help the
+              child feel more comfortable. They also organize and supervise the playroom and can provide toys
+              and games at the bedside.
+        </item>
+
+        <item>
+            a physician with primary responsibility for a patients care.
+        </item>
+
+        <item>
+               a nurse who has graduated from an accredited school of vocational nursing but has
+               less extensive clinical training than a registered nurse.
+        </item>
+
+        <item>
+            students completing their last few years of medical school. They work under close supervision
+            and do not make independent decisions about diagnosis or treatments.
+        </item>
+    </string-array>
+</resources>
